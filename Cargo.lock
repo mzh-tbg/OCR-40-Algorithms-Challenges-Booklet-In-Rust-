@@ -3,6 +3,12 @@
 version = 3
 
 [[package]]
+name = "capitalize"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6b5271031022835ee8c7582fe67403bd6cb3d962095787af7921027234bab5bf"
+
+[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -29,6 +35,7 @@ checksum = "97b3888a4aecf77e811145cadf6eef5901f4782c53886191b2f693f24761847c"
 name = "ocr-40-algorithm-challenges-booklet-rust-edition"
 version = "0.1.0"
 dependencies = [
+ "capitalize",
  "rand",
 ]
 
