@@ -6,3 +6,4 @@ edition = "2021"
 [dependencies]
 capitalize = "0.3.4"
 rand = "0.8.5"
+
